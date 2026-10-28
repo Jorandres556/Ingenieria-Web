@@ -196,7 +196,12 @@ body.bodylogin{
 /*-----------------------Transition normal (bg1.jpg)-------------------------*/
 body.bodylogin{
     background: #333 url('../images/bg1.jpg') no-repeat center / cover;
-    transition: background-color .6s ease, background-size .6s ease;
+    animation: aparecer .8s ease;
+}
+
+@keyframes aparecer{
+    from{ opacity: 0; }
+    to{ opacity: 1; }
 }
 
 /*-----------------------Media query 800px -------------------------*/
