@@ -1,0 +1,19 @@
+body{
+	background: rgb(255, 249, 191);
+}
+header{
+	background: rgb(0, 0, 0);
+	color: #ffffff;
+}
+/* llamda de estilos a las clases */
+header.cabeceraPrincipal{
+	font-size: 30px;
+	color: #ffffff; 
+}
+header nav a.menu1{
+	
+}
+/* llamada de estilos a ID */
+#principal{
+	background: rgb(255, 249, 191);
+}
